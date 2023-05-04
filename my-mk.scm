@@ -25,7 +25,7 @@
 (define empty-s '())
 
 ;; Note that `((,z . a) (,x . ,w) (,z . b)) is NOT a substitution
-;; since our substituitions cannot contain two or more associations
+;; since our substitutions cannot contain two or more associations
 ;; with the same car
 
 ;; WALK is a function that, given a substitution and a variable,
